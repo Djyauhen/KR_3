@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    background-color: rgb(2, 3, 3);
+    padding: 30px 0;
+    font-size: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.header-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-logo img {
+    height: 40px;
+    width: 100%;
+}
+
+.menu {
+    margin-left: 281px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 29px;
+}
+
+.menu ul li:first-child {
+    margin-left: 0;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a {
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    font-size: 16px;
+    color: rgb(255, 175, 24);
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.main {
+    background-color: rgb(2, 3, 3);
+    padding: 133px 0 80px 0;
+    font-size: 0;
+}
+
+.main-info {
+    max-width: 556px;
+    margin-bottom: 45px;
+    display: inline-block;
+}
+
+.main-info h1 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1.222;
+}
+
+.main-info h1 span {
+    color: #ffaf18;
+}
+
+.main-info-description {
+    margin-top: 74px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-info-item {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 100px;
+}
+
+.main-info-item:last-child {
+    margin-right: 0;
+}
+
+.main-info-item img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.main-info-item span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-action {
+    margin-top: 92px;
+}
+
+.button {
+    background-color: rgb(255, 175, 24);
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    line-height: 3.438;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+}
+
+.button:hover {
+    box-shadow: 0 15px 10px rgba(255, 175, 24, 0.15);
+}
+
+.button-main {
+    padding: 22px 54px;
+}
+
+.main-image {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 30px;
+}
+
+.rolls {
+    background-color: rgb(2, 3, 3);
+    padding: 120px 0 108px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.rolls h2 {
+    line-height: 1.571;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.rolls-items {
+    margin: 0 -12px;
+}
+
+.rolls-item {
+    box-sizing: border-box;
+    width: 282px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px 15px;
+    margin: 12px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 14px 1px rgba(152, 152, 152, 0.2);
+}
+
+.rolls-item:hover {
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.rolls-item:first-child, .rolls-item:last-child {
+    border: 5px solid rgb(237, 155, 0);
+    padding: 5px 15px 10px;
+}
+
+.rolls-item img {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.rolls-item-name {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.rolls-item-description {
+    width: 242px;
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.button-rolls {
+    padding: 17px 81px;
+}
+
+.cooker {
+    background-color: rgb(2, 3, 3);
+    padding: 120px 0 67px;
+}
+
+.cooker-info {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 381px;
+    margin-right: 48px;
+}
+
+.cooker-info h2 {
+    line-height: 1.286;
+    margin-bottom: 60px;
+}
+
+.cooker-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.about h3 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.button-about {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 40px;
+}
+
+.button-about.button-left {
+    margin-left: 0;
+}
+
+.button-about img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 12px;
+}
+
+.button-about:hover {
+    box-shadow: 0 0 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.button-center:active, .button-right:active, .button-left:active {
+    background-color: rgb(255, 175, 24);
+}
+
+.button-center:visited, .button-right:visited, .button-left:visited {
+    background-color: rgb(190, 190, 190);
+}
+
+.cooker-image {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.footer {
+    padding: 30px 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 390px;
+}
+
+.copyright {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+}
